@@ -289,7 +289,7 @@ const StudentDash = () => {
   const [date, setDate] = useState(new Date()); // Define date state variable
   const [fillterBookingData, setFillterBookingData] = useState(false);
   const [fillterDataValue, setFillterDataValue] = useState("");
-  // console.log(Bookings);
+  console.log(Bookings);
 
   useEffect(() => {
     dispatch(GetBookingsByStudentID(student._id));

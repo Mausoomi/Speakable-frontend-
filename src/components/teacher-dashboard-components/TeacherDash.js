@@ -15,7 +15,7 @@ const TeacherDash = () => {
   // console.log(teacher._id)
   console.log(Bookings);
   const dispatch = useDispatch();
-  const navigate  = useNavigate()
+  const navigate = useNavigate();
 
   useEffect(() => {
     dispatch(GetBookingsByTeacherID(teacher._id));
@@ -209,7 +209,7 @@ const TeacherDash = () => {
                 <thead className="table-transparent">
                   <tr>
                     <th className="th">#</th>
-                    <th className="th">Teacher Name</th>
+                    <th className="th">Student Name</th>
                     <th className="th">Scheduled_Dates</th>
                     <th className="th">Status</th>
                     <th className="th">Join Button</th>
